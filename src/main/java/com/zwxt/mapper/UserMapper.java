@@ -17,4 +17,9 @@ public interface UserMapper {
      * 查询用户信息
      */
     public List<User> getUsers();
+
+    /**
+     * 新增用户信息
+     */
+    public int addUser(User user);
 }
